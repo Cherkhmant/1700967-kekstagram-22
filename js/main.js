@@ -4,12 +4,10 @@ const randomInteger = function (min, max) {
   }
 
   if (max > min) {
-    return Math.round(Math.random() * (max - min +1) + min);
+    return Math.round(Math.random() * (max - min) + min);
   } else {
     return 'Please set max value grater than min';
   }
-
-  
 }
 
 const stringLengthCheck = function (comment, maxlength) {
@@ -19,7 +17,6 @@ const stringLengthCheck = function (comment, maxlength) {
     return comment;
   }
 }
-console.log(randomInteger(1,200))
 
-console.log(stringLengthCheck ('Hello',10))
-
+randomInteger(-1,100)
+stringLengthCheck('Hello',2)
