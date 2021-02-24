@@ -19,5 +19,7 @@ const stringLengthCheck = function (comment, maxlength) {
     return comment;
   }
 }
+console.log(randomInteger(1,200))
 
+console.log(stringLengthCheck ('Hello',10))
 
